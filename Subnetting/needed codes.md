@@ -16,7 +16,8 @@ subnet mask:255.255.255.192
 
 <h2>Simulation Picture:</h2>
 
-![image](https://github.com/user-attachments/assets/1c2946bb-9c63-4fc3-a62c-18861b225f60)
+![image](https://github.com/user-attachments/assets/03642efb-ceec-460b-850e-232fb4df0e69)
+
 
 
 <h2>example code for configuring first router:</h2>
