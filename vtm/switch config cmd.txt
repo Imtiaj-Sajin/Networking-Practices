@@ -1,0 +1,43 @@
+Switch Configuration
+vlan 10
+
+name faculty
+
+exit
+ 
+vlan 20
+
+name student
+
+exit
+ 
+int range fa0/3-15
+
+switchport mode access
+
+switchport access vlan 10
+
+exit
+ 
+int range fa0/16-24
+
+switchport mode access
+
+switchport access vlan 20
+
+exit
+ 
+int fa0/2
+
+switchport mode trunk
+
+exit
+ 
+ 
+int fa0/1
+
+switchport mode trunk
+
+exit
+
+ 
