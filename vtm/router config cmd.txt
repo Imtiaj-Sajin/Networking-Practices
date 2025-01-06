@@ -1,0 +1,21 @@
+Router Conf
+int g0/0
+
+no shut
+ 
+int g0/0.10
+
+encapsulation dot1q 10
+
+ip address 172.16.0.1 255.255.255.128
+
+exit
+ 
+int g0/0.20
+
+encapsulation dot1q 20
+
+ip address 172.16.0.129 255.255.255.192
+
+exit
+ 
